@@ -1,38 +1,142 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* styles for Navbar */
+
+.brand-logo{
+  height: 45px;
+  width: 65px;
+}
+
+.navbar-container{
+  display: flex;
+  flex-direction: row;
+  padding: 25px 70px;
+  height: 50px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.Links{
+  margin-left: 35px;
+}
+
+/* styling of links MEN,WOMEN,KIDS */
+.options{
+  padding-top: 9px;
+  display: inline-block;
+  font-weight: bold;
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  margin-left: 50px;
+  color: #4c4f5f;
+
+}
+
+.corner-links{
+  position: relative;
+  top: -10px;
+  left: 100px;
+}
+.favicon{
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.side-links{
+  margin-left: 23px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul{
+  list-style: none;
+}
+.new{
+  margin-left: 0;
+  display: inline;
+  position: relative;
+  top: -8px;
+  left: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #f65077;
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* styling of searchbar component */
+.search-field{
+  background-color: whitesmoke;
+  border: 0;
+  margin-left: 2px;
+  box-sizing: border-box;
+  padding-left: 25px;
+  width: 400px;
+  height: 45px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-bar{
+  margin: 0px 0 0 80px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+}
+
+.search-icon{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  font-size: 18px;
+  background-color: whitesmoke;
+  border-radius: 5px 0 0 5px;
+  color: #8a8b9d;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links{
+  width: 25px;
+  height: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.full-size-images{
+  width: 100vw;
+  margin-top: 25px;
+}
+
+.two-image-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.partition-image{
+  display: inline-block;
+  height: 400px !important;
+  width: 500px !important;
+}
+
+@media screen and (min-size:1400px){
+    .partition-image{
+      height: 480px;
+      width: 650px;
+    }
+}
+
+body{
+  background-color: rgb(249, 249, 249);
+  overflow-x: hidden;
+}
+.contents{
+  margin-top: 90px;
+}
+
+.Card{
+  display: inline-block;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
 }
