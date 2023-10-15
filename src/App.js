@@ -1,16 +1,28 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Topimg from './Components/top-img.png'
 import discount from './Components/discount.png'
 import VerticalCard from './Components/VerticalCard';
 import CardLinks from './Components/CardLinks.jsx'
-
+import Footer from './Components/overall-footer';
+import Sidebar from './Components/Sidemenu'
+import Profile from './Components/Profile.jsx'
+import Wishlist from './Components/Wishlist.jsx'
+import Bag from './Components/Bag'
 function App() {
   return (
     <>
-      <Navbar />
-      <div className="contents">
+    <Router>
+        <Sidebar/>
+        <Navbar />
+        <Routes>
+        <Route path='/Profile' element={<Profile/>} />
+        <Route path='/Wishlist' element={<Wishlist/>} />
+        <Route path='/Bag' element={<Bag/>} />
+        </Routes>
+        <div className="contents">
         <img className='full-size-images' alt='' src='https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/c697c000-3cf1-48f8-8130-c15ff23306401696438189573-FLAT-300-Off-on-1st-Purchase-Strip--2-.jpg' />
         
         <img className='full-size-images' src={Topimg} alt="" srcset="" />
@@ -37,7 +49,10 @@ function App() {
         </div>
 
         <img className='full-size-images' alt='' src='https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/673c184f-4970-4534-a3ee-af23ebf95c731696438098430-App-Install-Banner--3-.jpg' />
+        <Footer/>
       </div>
+    </Router>
+  
 
     </>
   );

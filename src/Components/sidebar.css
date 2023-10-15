@@ -1,0 +1,70 @@
+.close-button{
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    right: 0px;
+    font-size: 22px;
+    background-color: rgba(156, 156, 156, 0.3);
+    border: 0;
+    color: black;
+    margin:0 0;
+  }
+  
+  .hamburger{
+    color: black;
+    position: fixed;
+    right: 25px;
+    top: 19px;
+    font-size: 35px;
+    z-index: 50;
+    visibility: hidden;
+  }
+  
+  .icons{
+    margin-right: 15px;
+  }
+  
+  .links{
+    margin: 25px 25px;
+  }
+  
+  @media screen and (min-width:400px) and (max-width:1100px){
+        .hamburger{
+            visibility: visible;
+        }
+  }
+
+  .side-item{
+    margin-top: 45px !important;
+    font-size: 25px;
+  }
+  
+  .side-heading{
+    text-align: center;
+  }
+  
+  .favicon{
+    margin-right: 25px;
+    font-size: 30px;
+    color: black;
+  }
+  .side-menu-container{
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: white;
+    z-index: 50;
+    height: 100vh;
+    width: 0px;
+    background-color: rgba(255, 255, 255, 0.779);
+    transition-duration: .5s;
+  }
+  
+  .side-menu-container ul{
+    list-style: none;
+  }
+
+  .title{
+    color: black;
+    text-decoration: none;
+  }
