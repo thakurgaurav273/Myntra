@@ -18,10 +18,10 @@ export default function Navbar() {
             </ul>
             <Searchbar/>
 
-            <ul className="Links corner-links">
-                    <li className="options side-links"><i class="fa-regular favicon fa-user"></i> <br /> Profile</li>
-                    <li className="options side-links"> <i class="fa-regular favicon fa-heart"></i><br /> Wishlist</li>
-                    <li className="options side-links"><i class="fa-solid favicon fa-bag-shopping"></i> <br /> Bag</li>
+            <ul className="corner-links">
+                    <li className="side-links"><i class="fa-regular favicon fa-user"></i> <br /> Profile</li>
+                    <li className="side-links"> <i class="fa-regular favicon fa-heart"></i><br /> Wishlist</li>
+                    <li className="side-links"><i class="fa-solid favicon fa-bag-shopping"></i> <br /> Bag</li>
             </ul>
     </div>
   )

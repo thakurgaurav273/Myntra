@@ -6,7 +6,7 @@ function App() {
     const [clicked,setClicked]=useState(false);
     let display_hamburger="none"
     let crossVisible="hidden"
-    let breadth="0px"
+    let breadth="-250px"
     function openMenu(){
         setClicked(true);
     }
@@ -21,14 +21,14 @@ function App() {
     }
 
     if(clicked) {
-      breadth="250px"
+      breadth="0"
       crossVisible="visible"
     }
 
   return (
     <>
     <div className="hamburger" style={{display:display_hamburger}} onClick={openMenu}><i className="fa-solid fa-bars"></i></div>
-      <div className="side-menu-container" onBlur={handleClick} style={{width:breadth}}>
+      <div className="side-menu-container" onBlur={handleClick} style={{left:breadth}}>
       <button className='close-button' style={{visibility:crossVisible}} onClick={handleClick}><i class="fa-solid fa-x"></i></button>
         <header className='side-heading'>Menu</header>
         <div className="links">

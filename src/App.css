@@ -92,6 +92,14 @@
   height: 25px;
 }
 
+.side-links{
+  padding-top: 9px;
+  display: inline-block;
+  font-weight: bold;
+  color: #4c4f5f;
+
+}
+
 .full-size-images{
   width: 100vw;
   margin-top: 25px;
@@ -115,6 +123,7 @@ body{
 }
 .contents{
   margin-top: 90px;
+  width: 100vw;
 }
 
 .Card{
@@ -130,13 +139,11 @@ body{
   flex-direction: row;
   flex-wrap: nowrap;
 }
-
 .whole-cards-section{
   display: flex !important;
-  flex-wrap:wrap;
   justify-content: center;
+  flex-wrap:wrap;
 }
-
 @media screen and (min-width:1900) {
   .whole-cards-section{
     display: flex !important;
@@ -146,14 +153,53 @@ body{
 }
 
 
-@media screen and (min-width:400px) and (max-width:1500px){
-  .corner-links{
-      visibility: hidden;
+@media screen and (min-width:900px) and (max-width:1700px){
+  .Card{
+    height: 150px;
+    width: 140px;
+  }
+  .hide-icon-small-screen{
+    visibility: hidden;
+  }
+  .search-field{
+    width: 180px;
+    margin-left: 0;
+  }
+  .brand-logo{
+    height: 35px;
+    width: 50px;
+  }
+  ul{
+    width: 600px;
+  }
+  .side-links{
+    padding-left: 10px;
+  }
+}
+@media screen and (min-width:600px) and (max-width:900px){
+  .Card{
+    height: 120px;
+    width: 80px;
+  }
+  .hide-icon-small-screen{
+    visibility: hidden;
+  }
+  .search-field,.search-icon{
+    display: none;
+  }
+  .brand-logo{
+    height: 35px;
+    width: 50px;
+  }
+  .Links{
+    width: 200px;
   }
 
+}
+@media screen and (min-width:100px) and (max-width:600px){
   .Card{
-    height: 190px;
-    width: 170px;
+    height: 70px;
+    width: 50px;
   }
   .hide-icon-small-screen{
     visibility: hidden;
@@ -163,15 +209,59 @@ body{
     margin-left: 0;
   }
   .brand-logo{
-    height: 35px;
-    width: 50px;
+    margin-top: 10px;
+    margin-left: 75px !important;
+    height: 30px;
+    width: 45px;
+  }
+  .side-links{
+    font-size: 10px;
+  }
+  .favicon{
+    font-size: 22px !important;
+  }
+  .Links{
+    display: none;
+  }
+  .search-field, .search-icon{
+    display: none;
   }
 
-  .search-field{
-    width: 150px;
-    margin-left: 0;
+  .center-align-footer {
+    width: 100%;
+    max-width: 600px;
   }
 
+  .types-of-stock{
+    font-size: 10px !important;
+  }
+  ul.column{
+    margin: 20px 20px !important;
+  }
+  .header3{
+    font-size: 12px !important; 
+    margin: 10px 10px 0px 0 !important;
+  }
+  .item, .return-policies{
+    font-size: 12px !important;
+  }
+
+  .download-app{
+    width: 100px !important;
+    height: 35px !important;
+  }
+
+  .originality-img{
+    width: 50px !important;
+    height: 40px !important;
+  }
+  header{
+    margin-bottom: 15px !important;
+    font-size: 12px !important;
+  }
+  .list-item{
+    font-size: 10px !important;
+  }
 }
 
 /* Styles of the footer components */
@@ -201,7 +291,7 @@ header{
 .item{
   margin-top: 15px;
   color:#8a8b9d;
-  font-size: 20px;
+  font-size: 16px;
 
 }
 
@@ -222,7 +312,7 @@ header{
 .header3{
   margin-top: 30px;
   margin-bottom: 30px !important;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .social-media{
@@ -255,8 +345,7 @@ header{
 
 .types-of-stock{
   color: #8a8b9d;
-  font-size: 20px;
-  font-family:'Times New Roman', Times, serif;
+  font-size: 14px;
   text-align: justify;
 }
 
@@ -281,6 +370,7 @@ header{
 
 .col{
   width: 550px;
+  font-size: 15px;
 }
 
 .col2{
@@ -297,7 +387,7 @@ header{
 }
 
 .header4{
-  font-size: 15px;
+  font-size: 14px;
   display: inline;
   color: black;
 }
@@ -306,6 +396,7 @@ header{
   margin-top: 15px;
   text-align: justify;
   color: #8a8b9d;
+  font-size: 12px;
 }
 
 .second-para{

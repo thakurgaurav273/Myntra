@@ -2,7 +2,7 @@
     height: 45px;
     width: 45px;
     position: fixed;
-    right: 0px;
+    left: 200px;
     font-size: 22px;
     background-color: rgba(156, 156, 156, 0.3);
     border: 0;
@@ -13,7 +13,7 @@
   .hamburger{
     color: black;
     position: fixed;
-    right: 25px;
+    left: 25px;
     top: 19px;
     font-size: 35px;
     z-index: 50;
@@ -28,11 +28,15 @@
     margin: 25px 25px;
   }
   
-  @media screen and (min-width:400px) and (max-width:1100px){
+  @media screen and (min-width:200px) and (max-width:1100px){
         .hamburger{
             visibility: visible;
         }
+        .brand-logo{
+          margin-left: 100px;
+        }
   }
+  
 
   .side-item{
     margin-top: 45px !important;
@@ -50,14 +54,14 @@
   }
   .side-menu-container{
     position: fixed;
-    right: 0;
+    left: -250px;
     top: 0;
     color: white;
     z-index: 50;
     height: 100vh;
-    width: 0px;
+    width: 250px;
     background-color: rgba(255, 255, 255, 0.779);
-    transition-duration: .5s;
+    transition-duration: .2s;
   }
   
   .side-menu-container ul{
