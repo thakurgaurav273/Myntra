@@ -55,80 +55,91 @@ const arr=[
             key:5,
             source:"https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/4410d0a2-aa90-476e-b477-a96e839a51391696435196438-Shop-By-Category_HP-_06.jpg"
         }
-        ,{
+        ,
+        {
             key:6,
             source:"https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/ec61dd77-485f-45b8-8e03-ed650180e7061696435196322-Shop-By-Category_HP-_07.jpg"
         }
-        ,{
-            key:7,
+    ],
+    [
+        
+        {
+            key:1,
             source:"https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/ee175eb1-cb1f-4e44-9c78-8345324523751696435196518-Shop-By-Category_HP-_08.jpg"
         }
         ,{
-            key:8,
+            key:2,
             source:"https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/8268cc14-c9f4-4ca3-b9a6-15bd49aa9ee21696435196493-Shop-By-Category_HP-_09.jpg"
         }
         ,{
-            key:9,
+            key:3,
             source:"https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/70a7f97e-329d-45a7-a1e5-e566c3e279951696435196335-Shop-By-Category_HP-_10.jpg"
         }
         ,{
-            key:10,
+            key:4,
             source:"https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/e443935e-e788-437f-90df-ea1c9b41891d1696435196348-Shop-By-Category_HP-_11.jpg"
-        }
-        ,{
-            key:12,
+        },
+        {
+            key:5,
             source:"https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/5e14a83b-84c6-4e41-8749-f722122e19da1696435196360-Shop-By-Category_HP-_12.jpg"
         }
         ,{
-            key:13,
+            key:6,
             source:"https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/678acf9d-3a51-4168-b7d5-bfb3e09b75271696435196373-Shop-By-Category_HP-_13.jpg"
         }
-        ,{
-            key:14,
+    ]
+    ,
+    [
+
+        {
+            key:1,
             source:"https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/6de0ae14-5b40-4b4a-9b02-a66d78f9a8131696435196639-Shop-By-Category_HP-_14.jpg"
         }
         ,{
-            key:15,
+            key:2,
             source:"https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/f0c0f1a0-a458-47d4-86d4-3412a571409c1696435196479-Shop-By-Category_HP-_15.jpg"
         }
         ,{
-            key:16,
+            key:3,
             source:"https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/60c46154-099f-4647-b232-0e8680195ef61696435196402-Shop-By-Category_HP-_16.jpg"
-        }
-        ,{
-            key:17,
+        },
+        {
+            key:4,
             source:"https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/43391c41-c9d9-4e1a-b974-1bbe83da1fa81696435196612-Shop-By-Category_HP-_17.jpg"
         }
         ,{
-            key:18,
+            key:5,
             source:"https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/997bce31-1ce4-45af-acde-ad4a509f2e841696435196268-Shop-By-Category_HP-_18.jpg"
         }
         ,{
-            key:19,
+            key:6,
             source:"https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/4b61aaf2-64ef-49d1-a92f-1fb7f0967b161696435196295-Shop-By-Category_HP-_19.jpg"
         }
-        ,{
-            key:20,
+    ],
+    [
+ 
+        {
+            key:1,
             source:"https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/2bb49c0f-6f28-4097-898e-3c1aefb53e2b1696435196466-Shop-By-Category_HP-_20.jpg"
         }
         ,{
-            key:21,
+            key:2,
             source:"https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/dc946663-ce71-4fe6-a506-f4ce0ef5d25b1696435196545-Shop-By-Category_HP-_21.jpg"
-        }
-        ,{
-            key:22,
+        },
+        {
+            key:3,
             source:"https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/618ce765-7fb2-42e1-bd78-7d5c2dc597731696435196557-Shop-By-Category_HP-_22.jpg"
         }
         ,{
-            key:23,
+            key:4,
             source:"https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/c99cb4b9-6ca5-485f-a5c1-0606bca27a271696435196251-Shop-By-Category_HP-_23.jpg"
         }
         ,{
-            key:24,
+            key:5,
             source:"https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/3238323f-9272-46a9-8e1e-34bc411bf1ad1696435196507-Shop-By-Category_HP-_24.jpg"
         }
         ,{
-            key:25,
+            key:6,
             source:"https://assets.myntassets.com/w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/6a4842b5-a873-4da3-a5e5-4cd7dbb1e2451696435196572-Shop-By-Category_HP-_25.jpg"
         }
     ]

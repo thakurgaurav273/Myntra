@@ -34,20 +34,41 @@ function App() {
         
         <img className='full-size-images' alt='' src='https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/d441b128-d26f-4533-a7f4-1f9679decfeb1696437688115-OMG-Deals.jpg' />
         
-        <div className="card-container">
-        {CardLinks[0].map(item => (
-          <VerticalCard key={item.key} source={item.source} />
-          ))}
-        </div>
-        
-        <img className='full-size-images' alt='' src='https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/a45dd85d-7253-47ac-8797-70426db553f21696437688096-Category-Specials.jpg' />
-          
-        <div className="card-container">
-        {CardLinks[1].map(item => (
-          <VerticalCard key={item.key} source={item.source} />
-          ))}
+        <div className="whole-cards-section">
+          <div className="card-container">
+          {CardLinks[0].map(item => (
+            <VerticalCard key={item.key} source={item.source} />
+            ))}
+          </div>
         </div>
 
+        
+        <img className='full-size-images' alt='' src='https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/a45dd85d-7253-47ac-8797-70426db553f21696437688096-Category-Specials.jpg' />
+        
+        <div className="whole-cards-section">
+          <div className="card-container">
+          {CardLinks[1].map(item => (
+            <VerticalCard key={item.key} source={item.source} />
+            ))}
+          </div>
+          <div className="card-container">
+          {CardLinks[2].map(item => (
+            <VerticalCard key={item.key} source={item.source} />
+            ))}
+          </div>
+          <div className="card-container">
+          {CardLinks[3].map(item => (
+            <VerticalCard key={item.key} source={item.source} />
+            ))}
+          </div>
+          <div className="card-container">
+          {CardLinks[4].map(item => (
+            <VerticalCard key={item.key} source={item.source} />
+            ))}
+          </div>
+
+        </div>
+        
         <img className='full-size-images' alt='' src='https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/10/4/673c184f-4970-4534-a3ee-af23ebf95c731696438098430-App-Install-Banner--3-.jpg' />
         <Footer/>
       </div>
